@@ -1,0 +1,3 @@
+22:00:01 up 21:06,  0 users,  load average: 0.04, 0.01, 0.00 
+temp=55.8'C PING=OK 
+Teamspeak server : active (running)
