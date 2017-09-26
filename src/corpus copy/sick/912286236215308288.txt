@@ -1,0 +1,4 @@
+Flu = White Walker
+Flu Shot = Valyrian steel
+
+... do you want to be a Wight or do you want to be Jon Snow?… 

@@ -1,0 +1,10 @@
+10 minutes volume alerts:
+Gainers:
+$NMR: 6.67%
+$SYS: 5.39%
+$1ST: 2.53%
+
+Losers:
+$CANN: -5.36%
+$RDD: -3.55%
+$KMD: -2.28%

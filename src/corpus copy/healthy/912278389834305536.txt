@@ -1,0 +1,3 @@
+Findy: A shopping app that learns what you like and helps you find what you want
+
+ 

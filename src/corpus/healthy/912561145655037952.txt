@@ -1,0 +1,1 @@
+sqt(cel(abs(max(sig(sig(y)),max(abs(y),min(x,t))))))+sqt(sgn(sig(dst(exp(3.97),pln(t,y,x),abs(6.36),exp(6.80))))) 

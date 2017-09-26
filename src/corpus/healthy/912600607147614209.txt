@@ -1,0 +1,3 @@
+macOS High Sierra moves in mysterious ways for me. 
+Occasional kernel panics and system freezes
+All back up &amp; running in a minute but still

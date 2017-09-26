@@ -1,0 +1,1 @@
+exp(sqt(flr(min(max(max(8.98,7.68),5.46%8.46),pow(x,9.93)+max(t,y)))))+flr(dst(cos(x),at2(7.96,8.51),3.36+6.87,y+t)) 

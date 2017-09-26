@@ -1,0 +1,1 @@
+Anyone else getting false walking and running distance info from the watch in the health app. It’s over estimating. Bad restore maybe
