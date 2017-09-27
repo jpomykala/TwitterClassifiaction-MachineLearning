@@ -1,0 +1,2 @@
+1. We're on different domains, so lol same-origin policy makes that impossible
+2. I never accessed window.parent and have no reason to do so

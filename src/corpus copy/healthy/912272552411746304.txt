@@ -1,1 +1,0 @@
-Analysing questions from US Open with NLP reveals women receive less typical and unrelated questions than men. #bias 

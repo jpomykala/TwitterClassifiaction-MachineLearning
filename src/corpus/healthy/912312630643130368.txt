@@ -1,1 +1,0 @@
-cos(sid(abs(cel(pln(flr(6.36),cel(2.64),pow(2.30,6.63))))))+max(abs(sin(2.13)),at2(max(x,x),at2(4.73,y))) 

@@ -1,3 +1,0 @@
-From Mr.G's Arduino Weather Station 
-Humidity = 36.4%
-Temperature = 20.6 *C

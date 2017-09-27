@@ -1,3 +1,0 @@
-A talk on agile dev and #swsec by @lauriewilliams in Oslo (a @SINTEF meeting)
-
-Hint: The "security card" does not w… 

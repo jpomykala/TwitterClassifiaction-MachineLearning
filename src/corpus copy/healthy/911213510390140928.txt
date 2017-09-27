@@ -1,2 +1,0 @@
-Up for 49 days, 16 hours, 32 minutes, 58 seconds
-Running: Linux estel 4.9.35+ #1014 Fri Jun 30 14:34:49 BST 2017 armv6l GNU/Linux

@@ -16,17 +16,14 @@ api = TwitterAPI(consumer_key, consumer_secret, access_token_key, access_token_s
 
 def create_query(query):
 	return {
-			'q': '' +query + ' AND -filter:retweets AND -filter:replies', 
+			'q': '"' +query + '" AND -filter:retweets AND -filter:replies', 
 			'lang': 'en',
 			'result_type': 'mixed',
 			'include_entities': 'false',
 			'count': 100
 		}
 
-def fetch_sick_tweets(query):
-	return api.request('search/tweets', create_query(query))
-
-def fetch_heal_tweets(query):
+def fetch_tweets(query):
 	return api.request('search/tweets', create_query(query))
 
 def get_user_tweets(user_id):
@@ -34,12 +31,12 @@ def get_user_tweets(user_id):
 			'user_id': user_id,
 			'exclude_replies': 'true',
 			'include_rts': 'false',
-			'trim_user': 'true',
+			'trim_user': 'false',
 			'count': 200
 		})
 	for tweet in r:
 		creation_date = to_date(tweet["created_at"])
-		print(format_date(creation_date), tweet["id"], tweet["text"])
+		# print(format_date(creation_date), tweet["id"], tweet["text"])
 	return r;
 
 def get_user_by_tweet_id(tweet_id):
@@ -47,7 +44,7 @@ def get_user_by_tweet_id(tweet_id):
 	data = json.loads(r.text)
 	user_id = data["user"]["id"]
 	creation_date = to_date(data["created_at"])
-	print(format_date(creation_date), user_id)
+	# print(format_date(creation_date), user_id)
 	return user_id;
 
 def to_date(date_string):

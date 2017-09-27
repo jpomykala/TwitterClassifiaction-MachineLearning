@@ -1,4 +1,0 @@
-Session..........: hashcat
-Status...........: Running
-Hash.Type........: MD5
- 

@@ -1,0 +1,1 @@
+This is a small change, but a big move for us. 140 was an arbitrary choice based on the 160 character SMS limit. Pr… https://t.co/tYHA2VTS5l

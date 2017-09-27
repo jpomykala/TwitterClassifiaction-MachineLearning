@@ -1,1 +1,0 @@
-Intro tutorial to #iiif and getting server and presentation up and running from @mejackreed #cidoc2017

@@ -1,1 +1,0 @@
-I'm writing a go tool to play with Windows in vim in WSL, compiling it w go.exe to build an exe then running that f… 

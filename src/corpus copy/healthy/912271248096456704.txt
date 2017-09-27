@@ -1,1 +1,0 @@
-Despite my love for Jupyter, editing and running notebooks using an iPad is a pure catastrophe. Wish sth like @computableapp were around

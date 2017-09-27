@@ -1,1 +1,0 @@
-#SurfaceHub - you know for sure it’s built by @Microsoft when it takes 10 mins to boot up while you wait to “collaborate” during a meeting!

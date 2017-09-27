@@ -1,1 +1,0 @@
-Magento2 - Get product Ids matching to shopping cart rule 

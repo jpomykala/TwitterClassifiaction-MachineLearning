@@ -1,1 +1,0 @@
-With @caddyserver running on Linode as a proxy to DigitalOcean Spaces, a 1GB test file downloaded at 200Mbps! :D

@@ -1,5 +1,0 @@
-AGENCY: Los Alamitos PD
-CALL: [925OV] SUSP 
-ADDR: ROLLING SANDS, LOS 
-D/T: 9/26/2017 6:00:36 AM 
-#LosAlamitos

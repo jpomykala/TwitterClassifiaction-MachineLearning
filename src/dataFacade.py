@@ -14,14 +14,20 @@ def update_data():
 
 	print("Fetching tweets...")
 	for query in heal_query: 
-		tweets = twitterService.fetch_heal_tweets(query)
+		tweets = twitterService.fetch_tweets(query)
 		for tweet in tweets:
 			tweetsCorpra.write(tweet, "./corpus/healthy/")
 
 
 	for query in sick_query: 
-		tweets = twitterService.fetch_sick_tweets(query)
+		tweets = twitterService.fetch_tweets(query)
 		for tweet in tweets:
 			tweetsCorpra.write(tweet, "./corpus/sick/")
+
+	neutral_queries = ["wow", "nice", "thanks", "lol", "?", "#spring", "september", "august", "#usa", "#nhl", "parent", "ok", "summer", "hmm", "I'm wondering", "May I ask", "How"]
+	for query in neutral_queries: 
+		tweets = twitterService.fetch_tweets(query)
+		for tweet in tweets:
+			tweetsCorpra.write(tweet, "./corpus/neutral/")
 
 	return

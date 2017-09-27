@@ -1,1 +1,0 @@
-Finally have a Windows dev environment which makes me happy thanks to #hyperterm, @code, #powershell, @Docker and @chocolateynuget.

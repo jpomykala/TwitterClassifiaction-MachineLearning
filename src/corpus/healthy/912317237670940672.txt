@@ -1,1 +1,0 @@
-Writing descriptors in Python 3.6+ 
