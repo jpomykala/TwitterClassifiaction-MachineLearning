@@ -1,0 +1,1 @@
+How to make variable of pagination class public available in code igniter 3 https://t.co/h7KtlMdrF2 https://t.co/roLZyxI7Gy

@@ -8,7 +8,9 @@ from textUtils import clean_post
 from tweetsCorpra import get_corpus_posts
 
 def get_part_count(source_array, float_percentage):
-	return int(len(source_array) * float_percentage)
+	arrayLen = len(source_array)
+	output = int(arrayLen * float_percentage)
+	return output
 
 def train_classifier():
 
@@ -17,24 +19,22 @@ def train_classifier():
 	health_posts = get_corpus_posts("healthy")
 	neutral_posts = get_corpus_posts("neutral")
 
-	train_part = 0.9
-	test_part = 0.1
+	train_part = 0.95
 	
-	sick_train_count = get_part_count(sick_posts, train_part)
-	health_train_count = get_part_count(health_posts, train_part)
-	neutral_train_count = get_part_count(neutral_posts, train_part)
-
-	sick_test_count = get_part_count(sick_posts, test_part)
-	health_test_count = get_part_count(health_posts, test_part)
-	neutral_test_count = get_part_count(neutral_posts, test_part)
-
-	train_data = sick_posts[:sick_train_count] + health_posts[:health_train_count] + neutral_posts[:neutral_train_count]
-	test_data = sick_posts[sick_test_count:] + health_posts[health_test_count:] + neutral_posts[neutral_train_count:]
+	sick_split = get_part_count(sick_posts, train_part)
+	health_split = get_part_count(health_posts, train_part)
+	neutral_split = get_part_count(neutral_posts, train_part)
+	train_data = sick_posts[:sick_split] + health_posts[:health_split] + neutral_posts[:neutral_split]
+	random.shuffle(train_data)
+	test_data = sick_posts[sick_split:] + health_posts[health_split:] + neutral_posts[neutral_split:]
+	random.shuffle(test_data)
+	print("Train posts:", len(train_data))
+	print("Test posts:", len(test_data))
 	
 	print("--> Training classifier...")
 	cl =  NaiveBayesClassifier(train_data)
-	print("--> Testing...")
-	print("accuracy: {0}".format(cl.accuracy(test_data)))
+	# print("--> Testing...")
+	# print("accuracy: {0}".format(cl.accuracy(test_data)))
 	return cl
 
 

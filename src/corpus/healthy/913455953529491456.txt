@@ -1,0 +1,1 @@
+Temp: 17.9°C; Humidity: 70.00%; Pressure: 1018.3 hPa; Wind: 2.2 m/s; Wind Dir: 179 degrees; Sol Radiation: 36.6 W/m2; UV Index: 0.4

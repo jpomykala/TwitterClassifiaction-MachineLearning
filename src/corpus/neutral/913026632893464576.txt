@@ -1,1 +1,0 @@
-Hmm, interesting, #KVM component for #ChromeOS written using @rustlang https://t.co/tG8mAVE0s4

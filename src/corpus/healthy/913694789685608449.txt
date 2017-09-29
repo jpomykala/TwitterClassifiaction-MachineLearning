@@ -1,0 +1,1 @@
+Temperature: 36.6°C | Humidity: 61% | Pressure: 1006hPa (Falling) | Conditions: Clear | Wind Direction: NNW | Wind Speed: 9.0km/h #StormAE
