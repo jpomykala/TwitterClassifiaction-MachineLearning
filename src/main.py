@@ -40,6 +40,7 @@ def iterate_over_tweets(tweets):
 		if classification is "sick" and sick_start_date is None:
 			sick_start_date = to_date(created)
 			sick_post = text
+			sick_post_id = tweet.id
 			continue
 
 		if classification is "healthy" and sick_start_date is not None:
@@ -48,7 +49,7 @@ def iterate_over_tweets(tweets):
 			if sick_duration_days is 0:
 				continue
 			print("-------")
-			print(tweet.user_name, "was sick at", sick_start, "because he/she wrote:", sick_post)
+			print(tweet.user_name, "was sick at", sick_start_date, "because he/she wrote:", sick_post)
 			print(tweet.user_name, "was cured at", cure_date, "because he/she wrote:", text)
 			print(tweet.user_name, "was sick for", sick_duration_days, "days")
 			print("-------")
@@ -60,10 +61,10 @@ def iterate_over_tweets(tweets):
 			sheet.cell(row=row_id, column=2).value = tweet.user_id # twitter id
 			sheet.cell(row=row_id, column=3).value = sick_start_date # sick start date
 			sheet.cell(row=row_id, column=4).value = sick_post # sick post
-			sheet.cell(row=row_id, column=5).value = sick_id # sick post id
+			sheet.cell(row=row_id, column=5).value = sick_post_id # sick post id
 			sheet.cell(row=row_id, column=6).value = cure_date # cured date
 			sheet.cell(row=row_id, column=7).value = text # cured post 
-			sheet.cell(row=row_id, column=8).value = tweet.id # cured post  id
+			sheet.cell(row=row_id, column=8).value = tweet.id # cured post id
 			sheet.cell(row=row_id, column=9).value = sick_duration_days
 			row_id = row_id + 1
 			excel_file.save(excel_file_name)
