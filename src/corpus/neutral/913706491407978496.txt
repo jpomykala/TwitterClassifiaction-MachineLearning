@@ -1,1 +1,0 @@
-Angular2 router, how to match full URL in child Route? https://t.co/ifXzeKObL3 https://t.co/roLZyxI7Gy

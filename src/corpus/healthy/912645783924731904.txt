@@ -1,1 +1,0 @@
-Temperature: 36.6°C | Humidity: 55% | Pressure: 1006hPa (Steady) | Conditions: Partly Cloudy | Wind Direction: SSW | Wind Speed: 8… #StormAE

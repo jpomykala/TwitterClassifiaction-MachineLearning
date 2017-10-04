@@ -18,7 +18,6 @@ def update_data():
 		for tweet in tweets:
 			tweetsCorpra.write(tweet, "./corpus/healthy/")
 
-
 	for query in sick_query: 
 		tweets = twitterService.fetch_tweets(query)
 		for tweet in tweets:

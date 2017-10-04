@@ -1,1 +1,0 @@
-Bus 2126 is the 730 out of AGGANIS . it is running on schedule , but the GPS is not working . We are working on the issue .

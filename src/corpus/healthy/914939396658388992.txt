@@ -1,0 +1,7 @@
+Temp: 80.1° &amp; Rising
+Pres: 30.02" &amp; Falling
+Wsp: 9.3 mph from the SSE
+Gust: 0 mph
+Hum: 21%
+Dew: 36.6°
+Rain: 0.00"

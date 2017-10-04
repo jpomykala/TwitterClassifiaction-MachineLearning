@@ -1,0 +1,1 @@
+Hmm, I can't get SWBF2 to enter fullscreen mode, and OBS won't capture it.  Anyone have any ideas?  Menu says fullscreen but it's windowed.

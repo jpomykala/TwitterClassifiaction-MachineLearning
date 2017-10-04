@@ -1,0 +1,6 @@
+Uptime: 4 days, 4:47:18
+T: 5.75°C; P: 731.64 mmHg; H: 36.6%
+Condition: Clear
+CPU: 34.7°C
+LA: (0.45, 0.45, 0.44)
+#RaspberryPi

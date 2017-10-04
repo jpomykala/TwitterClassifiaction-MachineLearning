@@ -1,0 +1,1 @@
+moved /home/user/.bytecoin from one pc to another. getting error for wallet already running now on newer ubuntu pc. Any help #bytecoin #BCN

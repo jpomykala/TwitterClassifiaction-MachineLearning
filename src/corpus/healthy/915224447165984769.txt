@@ -1,0 +1,1 @@
+#Tiptuesday Tech-level should be defined, but not be universal. Some towns may not have running water, while others may have elevators. #dnd

@@ -8,13 +8,13 @@ def remove_whitespaces(text):
 	return re.sub(' +',' ', text)
 
 def remove_links(text):
-	return re.sub(r"http\S+", "", text)
+	return re.sub(r'http\S+', '', text)
 
 def replace_hashtags(text):
 	return re.sub(r'#([^\s]+)', r'\1', text)
 
 def remove_user(text):
-	return re.sub('@[^\s]+','', text)
+	return re.sub(r'@[^\s]+','', text)
 
 def remove_stopwords(text):
 	output_elements = []
@@ -26,7 +26,7 @@ def remove_stopwords(text):
 	return ' '.join(output_elements)
 
 def clean_post(text_arg):
-	text = text_arg.lower()
+	text = text_arg
 	text = remove_user(text)
 	text = remove_links(text)
 	text = replace_hashtags(text)

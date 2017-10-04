@@ -1,0 +1,2 @@
+Me: &lt;proposes an action item in meeting&gt;
+Dude, in tone that suggests disagreement: "Sure but I think we should &lt;says exact same thing&gt;"
