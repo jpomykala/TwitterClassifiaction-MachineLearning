@@ -1,0 +1,7 @@
+RN: Did this patient get a spinal? 
+Me: Uh, no. 
+RN: Ok. 
+Me: We replaced her shoulder. 
+RN: Oh. 
+
+#payattentiontohandoff

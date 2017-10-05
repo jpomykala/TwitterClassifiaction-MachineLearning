@@ -1,0 +1,1 @@
+We're preparing for a #KEXI for Windows release so the question: is it OK to support only 64bit system? What OS do you use? @kdecommunity

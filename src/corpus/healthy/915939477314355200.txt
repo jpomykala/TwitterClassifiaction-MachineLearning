@@ -1,0 +1,1 @@
+RT @jobertabma: Hackers, besides running a subdomain scan, also try to enumerate virtual hosts on a webserver. Scanner here: https://t.co/g…

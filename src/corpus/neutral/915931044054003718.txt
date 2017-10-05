@@ -1,0 +1,1 @@
+RT @felix_schwarz: Tried myself &amp; it's true: #HighSierra shows the #APFS volume password as hint. Persists reboots, not stored in keychain.…

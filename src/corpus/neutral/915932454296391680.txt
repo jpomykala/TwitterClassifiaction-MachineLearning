@@ -1,0 +1,1 @@
+RT @jonathangrenier: @Dinnerbone I love the change and maybe you can keep the old commands and mark them as deprecated in 1.13 and remove t…

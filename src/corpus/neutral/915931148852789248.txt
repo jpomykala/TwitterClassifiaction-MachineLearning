@@ -1,0 +1,6 @@
+Currently HID Device1 @ 05/10/2017 14:21:16= 21.75C
+OK
+
+Currently Glasgow,GLG,UK @ 05/10/2017 13:50:00= 12C (72%) Overcast
+
+HID Device1@05…
