@@ -1,0 +1,1 @@
+Keep running the machine, calculate the errors and tunes each cog. #MachineLearning

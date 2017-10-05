@@ -32,5 +32,5 @@ def clean_post(text_arg):
 	text = remove_punctuation(text)
 	text = remove_stopwords(text)
 	text = remove_whitespaces(text)
-	return text.strip()
+	return text.strip().lower()
 

@@ -1,0 +1,1 @@
+RT @rafabene: Do you want to know why you will fail running #java on #docker? Come see this talk with me and @burrsutter and learn how to b…

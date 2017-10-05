@@ -1,0 +1,1 @@
+How to Version and Publish a PowerShell Module to GitHub and PSGallery with AppVeyor https://t.co/TeXLa8rGKN via @ChrisWahl

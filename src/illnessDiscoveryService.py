@@ -47,20 +47,22 @@ def iterate_over_tweets(tweets, classifier, analyzer):
 		text = TextBlob(clean_post(tweet.text), classifier=classifier, analyzer=analyzer)
 		created = tweet.date
 
+		print('.', end='', flush=True)
+
 		if len(text.words) < 2:
 			print("Less than 2 words")
 			continue
 
 		if text.detect_language() != "en":
-			print("Not english posts")
+			print("Not english text")
 			continue
 
 		features = classifier.extract_features(text)
 		classification = classifier.classify(text)
 
-		print(classification, "|", text)
-		prob_dist = classifier.prob_classify(text)
-		print("prob:", prob_dist.max(), "sick:", prob_dist.prob("sick"),  "healthy:", prob_dist.prob("healthy"),  "neutral:", prob_dist.prob("neutral"))
+		# print(classification, "|", text)
+		# prob_dist = classifier.prob_classify(text)
+		# print("prob:", prob_dist.max(), "sick:", prob_dist.prob("sick"),  "healthy:", prob_dist.prob("healthy"),  "neutral:", prob_dist.prob("neutral"))
 		print("-------------")
 
 		if classification == "sick" and sick_start_date is None:

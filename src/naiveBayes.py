@@ -13,7 +13,7 @@ def get_part_count(source_array, float_percentage):
 	output = int(arrayLen * float_percentage)
 	return output
 
-def get_text_blob(arg):
+def get_feature_posts(arg):
 	output = [(p, arg) for p in get_posts(arg)]
 	random.shuffle(output)
 	return output
@@ -21,9 +21,9 @@ def get_text_blob(arg):
 def train():
 	print("--> Reading corpus...")
 
-	sick_posts = get_text_blob("sick")
-	health_posts =  get_text_blob("healthy")
-	neutral_posts = get_text_blob("neutral")
+	sick_posts = get_feature_posts("sick")
+	health_posts =  get_feature_posts("healthy")
+	neutral_posts = get_feature_posts("neutral")
 	train_part = 0.75
 	
 	sick_split = get_part_count(sick_posts, train_part)
@@ -42,9 +42,9 @@ def train():
 
 def train_analyzer():
 	print("--> Reading corpus...")
-	sick_posts = get_text_blob("sick")
-	health_posts =  get_text_blob("healthy")
-	neutral_posts = get_text_blob("neutral")
+	sick_posts = get_feature_posts("sick")
+	health_posts =  get_feature_posts("healthy")
+	neutral_posts = get_feature_posts("neutral")
 	train_part = 0.75
 	
 	sick_split = get_part_count(sick_posts, train_part)
